@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Mi porfolio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script>
+       $( function() {
+        $( ".draggable" ).draggable(); 
+    } );
+    </script>
+    <link rel="shortcut icon" href="./images/yo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body__index">
+   <header> 
+    <nav class="barra__navegacion">
+    <a class="menu__izquierdo" href="assets/porfolionataliapizarro2022.pdf" target="_blank"> 
+        <img src="./images/iconocv.jpg" width="50" alt=""> </a>
+    <div class="dropdown">
+        <button class="boton__hamburguesa"> 
+            <img src="./images/iconohamn.jpg" alt="Icono hamburguesa" width="90"/> 
+        </button>
+        <div class="dropdown-content">
+            <div class="dropdown-links">
+                <a class="dropdown-link link__home" href="./index.html">HOME <span> ></span></a>
+                <a class="dropdown-link link__digital--1" href="./pages/digital.html">DIGITAL <span> ></span></a>
+                <a class="dropdown-link link__analogica--2" href="./pages/analogica.html">ANALOGICA <span> ></span></a>
+                <a class="dropdown-link link__contactame--3" href="./pages/contacto.html">CONTACTAME <span> ></span></a>
+            </div>
+        </div>
+      </div>
+    <ul class="menu__derecho"> 
+        <li><img src="./images/iconodarkmode.jpg" width="50" alt="iconodarkmode"></li>
+        <li><img src="./images/iconoidioma.jpg" width="50" alt="iconoidioma"></li>
+        <li><img src="./images/iconotipografia.jpg" width="50" alt="iconotipografia"></li>
+    </ul>
+    </nav>
+    </header>
+<main class="main__grilla--mover">
+    <section>
+        <div class="section__cortina">
+            <img class="imagen__mano draggable" src="./images/mano.png" alt="">
+            <img class="imagen__mascara draggable" src="./images/mascara.png" alt="">
+            <img class="imagen__circulo draggable" src="./images/circulo.png" alt="">
+            <img class="imagen__asterisco draggable" src="./images/asterisco.png" alt="">
+            <img class="imagen__conexion draggable" src="./images/conexion.png" alt="">
+            <img class="imagen__pincelada draggable" src="./images/pincelada.png" alt="">
+        </div>
+        <p class="texto_midescripcion">Hola, soy 
+            <span class="span__natalia">Natalia</span> 
+            <img class="imagen__yo" src="./images/yo.jpg" width="34"> Diseñadora UX | UI. También soy 
+            <span class="span__cuatro">Cuatro</span> artísta gráfica. 
+            Mi energía profesional se compone de una parte 
+            <a class="link__digital" href="./pages/digital.html" target="_blank">Digital</a> y otra 
+            <a class="link__analogica" href="./pages/analogica.html">Analógica</a>. Este es 
+            mi porfolio en <a class="link__behance" href="https://www.behance.net/nataliapizca43" target="_blank">Behance</a> e 
+            <a class="link__instagram" href="https://www.behance.net/nataliapizca43" target="_blank">Instagram</a>. 
+            <a class="link__youtube" href="https://youtu.be/8NFOa33evIA" target="_blank">Acá</a> videos experimentales. 
+            Me podes contactar por <a class="link__Whatsapp" href="https://api.whatsapp.com/send/?phone=5491169344008&text&type=phone_number&app_absent=0" target="_blank">Whatsapp</a>
+            o <a class="link__email" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">Email.</a></p>
+
+
+
+            <svg class="circulito" viewBox="0 0 100 100" width="300" height="300">
+                <defs>
+                  <path id="circle"
+                    d="
+                      M 50, 50
+                      m -37, 0
+                      a 37,37 0 1,1 74,0
+                      a 37,37 0 1,1 -74,0"/>
+                </defs>
+                <text font-size="8px">
+                  <textPath xlink:href="#circle" class="circulito__color">
+                    ideas creativas= ”pensadas en diseño“ > acá //
+                  </textPath>
+                </text>
+              </svg>
+    </section>
+</main> 
+<footer class="footer">
+    <div class="footer__completo">
+      <div class="footer__derechos">
+        <p>Todos los derechos reservados | 2022</p>
+      </div>
+      <div class="footer__firma">
+        <img src="./images/firma.png" width="40px">
+      </div>
+    </div>
+</footer>
+</body>
+</html>
