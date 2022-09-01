@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
+        <title>Mi porfolio</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+        <script>
+           $( function() {
+            $( ".draggable" ).draggable(); 
+        } );
+        </script>
+        <link rel="shortcut icon" href="../images/yo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+       <header> 
+        <nav class="barra__navegacion">
+           <a class="menu__izquierdo" href="../assets/porfolionataliapizarro2022.pdf" target="_blank"> 
+           <img src="../images/iconocv.jpg" width="50" alt=""> </a>
+           <div class="dropdown">
+            <button class="boton__hamburguesa"> 
+                <img src="../images/iconohamn.jpg" alt="Icono hamburguesa" width="90"/> 
+            </button>
+            <div class="dropdown-content">
+                <div class="dropdown-links">
+                    <a class="dropdown-link link__home" href="../index.html">HOME <span> ></span></a>
+                    <a class="dropdown-link link__digital--1" href="./digital.html">DIGITAL <span> ></span></a>
+                    <a class="dropdown-link link__analogica--2" href="./analogica.html">ANALOGICA <span> ></span></a>
+                    <a class="dropdown-link link__contactame--3" href="./contacto.html">CONTACTAME <span> ></span></a>
+                </div>
+            </div>
+          </div>
+        <ul class="menu__derecho"> 
+            <li><img src="../images/iconodarkmode.jpg" width="50" alt="iconodarkmode"></li>
+            <li><img src="../images/iconoidioma.jpg" width="50" alt="iconoidioma"></li>
+            <li><img src="../images/iconotipografia.jpg" width="50" alt="iconotipografia"></li>
+        </ul>
+    </nav>
+    <div class="especificacion"><span class="span__digital">DIGITAL ></span></div>
+    </header>
+</header>
+<main class="container__digital">
+  <section class="galeria__digital--cofre">
+    <div class="derecha">
+        <img class="imagen__uno--digital" src="../images/cofre1.jpg" >
+        <img class="imagen__dos--digital" src="../images/cofre2.jpg">
+        <img class="imagen__tres--digital" src="../images/cofre3.jpg" >
+        <img class="imagen__cuatro--digital" src="../images/cofre4.jpg">
+    </div> 
+    
+    <div class="derecha__izzaro">
+        <img class="imagen__cinco--digital" src="../images/izzaro1.jpg" >
+        <img class="imagen__seis--digital" src="../images/izzaro2.jpg">
+        <img class="imagen__siete--digital" src="../images/izzaro3.jpg" >
+        <img class="imagen__ocho--digital" src="../images/izzaromix.jpg">
+        <img class="imagen__nueve--digital" src="../images/aym.jpg">
+        <img class="imagen__diez--digital" src="../images/snack.jpg">
+        <img class="imagen__once--digital" src="../images/bauhaus1.jpg">
+        <img class="imagen__doce--digital" src="../images/bauhaus2.jpg">        
+        <img class="imagen__trece--digital" src="../images/bauhaus3.jpg">
+        <img class="imagen__catorce--digital" src="../images/editorial.jpg">
+        <img class="imagen__quince--digital" src="../images/editorial2.jpg">
+        <img class="imagen__dieciseis--digital" src="../images/editorial3.jpg">        
+        <img class="imagen__diecisiete--digital" src="../images/editorial4.jpg">        
+    </div>
+    <svg class="circulito__analogica" viewBox="0 0 100 100" width="300" height="300">
+        <defs>
+          <path id="circle"
+            d="
+              M 50, 50
+              m -37, 0
+              a 37,37 0 1,1 74,0
+              a 37,37 0 1,1 -74,0"/>
+        </defs>
+        <text font-size="8px">
+          <textPath xlink:href="#circle" class="circulito__color">
+            ideas creativas= ”pensadas en diseño“ > acá //
+          </textPath>
+        </text>
+      </svg>
+  </section>
+    <section>
+
+   
+    </section>
+</main> 
+<footer class="footer__digital">
+    <div class="footer__completo--digital">
+        <div class="footer__derechos">
+            <p>Todos los derechos reservados | 2022</p>
+    </div>
+    <div class="footer__firma">
+        <img src="../images/firma.png" width="40px">
+    </div>
+</div>
+</footer>
+</body>
+</html>
