@@ -19,6 +19,18 @@ body{
 nav{
     background-color: #ffffff;
 }
+.hero{
+    height: 75vh;
+}
+ 
+#navbarNavDropdown{
+    justify-content: center;
+    border: none;
+}
+#nav-item{
+    justify-content: end;
+
+}
 
 /*----HOME-----*/
 
@@ -48,7 +60,7 @@ nav{
     justify-content: center;
   }
   
-.dropdown-content {
+.dropdown-menu {
     display: none;
     position: absolute;
     background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(0,0,0,0.75) 50%); 
@@ -62,7 +74,7 @@ nav{
     background: white;
   }
   
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-menu {
     display: block;
   }
 
@@ -72,6 +84,7 @@ nav{
     justify-content: space-around;
     height: 100%;
   }
+
 
 .boton__hamburguesa{
     border: none;
@@ -194,14 +207,14 @@ nav{
 }
 .imagen__conexion{
     position: absolute;
-    top: 30px;
+    top: 200px;
     left: 10px;   
     z-index: 1;
 }
 .imagen__circulo{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 170px;
+    left: 550px;
 }
 .imagen__mascara{
     position: absolute;
@@ -411,6 +424,12 @@ a{
 
 /*----CONTACTO-----*/
 
+#accordionExample{
+    display: none;
+}
+.col-md-6{
+    height: 60vh;
+}
 .contactame__email{
     display: flex;
     justify-content: right;
@@ -419,6 +438,7 @@ a{
     color: #51575B;
     height: 3rem;
     outline: none;
+
 }
 .contactame__email--interior{
     background-color: #F2F2F2;
