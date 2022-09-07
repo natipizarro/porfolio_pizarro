@@ -1100,6 +1100,9 @@ a{
         padding: 2rem;
         background-color: white;
         width: 100%;
+        z-index: 1;
+        box-shadow: 0 0 0 100vmax rgba(0,0,0,0.6);
+
 
     }
 
@@ -1124,6 +1127,13 @@ a{
     }
     .section__cortina {
         display: none;
+    }
+    .img__shake{
+        width: 30px;
+        padding-top: 30px;
+    }
+    .circulito__analogica{
+        z-index: 0;
     }
 
 }
