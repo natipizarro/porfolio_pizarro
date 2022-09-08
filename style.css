@@ -600,9 +600,7 @@ a{
         flex-direction: column;
         min-height: 100vh;
     }
-    .hero{
-        height: auto;
-    }
+    
     .dropdown {
         position: relative;
         display: flex;
@@ -944,9 +942,7 @@ a{
     .menumobile {
         display: none;
     }
-    .hero{
-        height: auto;
-    }
+
 }
 
 @media screen and (max-width: 992px) {
