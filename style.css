@@ -16,6 +16,11 @@ body{
     min-height: 100vh;
 }
 
+a{
+    text-decoration: none;
+    color: #51575B;
+}
+
 .body__index{
     overflow: hidden;    
 }
@@ -33,13 +38,6 @@ body{
 
 }
 
-/*----HOME-----*/
-
-
-.boton__imagen{
-    height: 5%;
-}
-  
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -63,19 +61,27 @@ body{
     display: none;
 }
 
+.dropdown-item:active {
+    background-color: #FF9A5A;
+}
+
 .dropdown-item{
     text-decoration: none;
     color: #51575B;
     font-size: 17px;
   }
 
-  .dropdown-item span {
+.dropdown-item span {
     display: none;
   }
 
-  .dropdown-item:hover span {
+.dropdown-item:hover span {
     display: inline-block;
   }
+
+
+/*----INDEX-----*/
+
 
 .texto_midescripcion{
     font-size: 32px;
@@ -85,68 +91,78 @@ body{
     line-height: 38px;
     font-style: normal;
     padding-top: 12rem;
-  }
+}
+
 .imagen__yo{
     border-radius: 8px;
-  }
+}
+
 .span__cuatro{
     font-weight: bold;
     color: #FF9A5A;
 } 
+
 .span__natalia{
     font-weight: bold;
     color: #5D88B2;
 }
+
 .link__digital{
     font-weight: bold;
     text-decoration: none;
     color: #51575B;
-  }
+}
+
 .link__digital:hover{
     color: #3fbeaf;
-  }
+}
 
 .link__instagram{
     font-weight: bold;
     text-decoration: none;
-  }
+}
 
 .link__instagram:hover{
     color: #3fbeaf
-  }
+}
+
 .link__analogica{
     font-weight: bold;
     text-decoration-style: dotted;
     color: #4e5052;
-  }
+}
+
 .link__analogica:hover{
     color: #3fbeaf
-  }
+}
 
 .link__behance{
     font-weight: bold;
     text-decoration: none;
-  }
+}
+
 .link__behance:hover{
     color: #3fbeaf
-  }
+}
   
 .link__youtube{
     font-weight: bold;
     text-decoration: none;
-  }
+}
 
 .link__youtube:hover{
     color: #3fbeaf
-  }
+}
 
 .link__Whatsapp{
     font-weight: bold;
     text-decoration: none;
-  }
+}
+
 .link__Whatsapp:hover{
     color: #3fbeaf 
-  }
+}
+
 .link__email{
     font-weight: bold;
     text-decoration: none;
@@ -196,6 +212,7 @@ body{
     left: 0px;
 }
 
+
 /*----FOOTER-----*/
 
 .footer__completo{
@@ -208,24 +225,9 @@ body{
     letter-spacing: 1px;
     font-size: small;
 }
-.footer__completo--analogico{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding: 20px;
-}
-a{
-    text-decoration: none;
-    color: #51575B;
-}
-.footer__completo--digital{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-top: auto;
-    padding: 20px;
-}
+
+
+
 
 /*----ANALOGICA-----*/
 
@@ -257,6 +259,14 @@ a{
 .galeria__item img{   
     width: 100%;
     height: auto;
+}
+
+.footer__completo--analogico{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 /*----CONTACTO-----*/
@@ -425,6 +435,15 @@ a{
     padding-bottom: 8%;
     animation-name: sectionmanomovimiento;
 }
+
+.footer__completo--digital{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 20px;
+}
+
 @keyframes sectionmanomovimiento {
     from {top: 0px;}
     to {top: 200px;}
