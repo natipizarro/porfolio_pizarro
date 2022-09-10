@@ -1,0 +1,98 @@
+#accordionExample{
+    display: none;
+}
+.col-md-6{
+    height: 60vh;
+}
+.form-control{
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 0%;
+    color: #51575B;
+}
+
+.form-control:focus {
+    background-color: #51575B;
+    border-color: #51575B;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+}
+.form-control::placeholder{
+    color: #4e5052;
+}
+.btn-primary{
+    border-radius: 1%;
+    color: #ffffff;
+    background-color: #FF9A5A;
+    background-color: #51575B;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #FF9A5A;
+}
+.especificacion{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    margin: 2rem 2rem 2rem;
+    color: #51575B;
+}
+.circulito__analogica{
+    position: absolute;
+    font-weight: 8px;
+    letter-spacing: 1px;
+    opacity: 50%;
+    top: 90px;
+    left: -100px;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+@media (max-width:320px) {
+
+    .contactame__email{
+        justify-content: center;
+    }
+    .contactame__name{
+        justify-content: center;
+    }
+
+    .contactame__enviar{
+        justify-content: center;
+
+    }
+    .contactame{
+        width: 100%;
+        height: auto;
+    }
+} 
+@media screen and (max-width: 992px) {
+
+    .col-md-6 {
+        height: auto;
+    }
+}

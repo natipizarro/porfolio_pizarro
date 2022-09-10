@@ -1,0 +1,238 @@
+.hero{
+    height: 80vh;
+}
+
+.texto_midescripcion{
+    font-size: 32px;
+    color: #51575B;
+    margin: 20px;
+    letter-spacing: 2px;
+    line-height: 38px;
+    font-style: normal;
+    padding-top: 12rem;
+}
+
+.imagen__yo{
+    border-radius: 8px;
+}
+
+.span__cuatro{
+    font-weight: bold;
+    color: #FF9A5A;
+} 
+
+.span__natalia{
+    font-weight: bold;
+    color: #5D88B2;
+}
+
+.link__digital{
+    font-weight: bold;
+    text-decoration: none;
+    color: #51575B;
+}
+
+.link__digital:hover{
+    color: #3fbeaf;
+}
+
+.link__instagram{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link__instagram:hover{
+    color: #3fbeaf
+}
+
+.link__analogica{
+    font-weight: bold;
+    text-decoration-style: dotted;
+    color: #4e5052;
+}
+
+.link__analogica:hover{
+    color: #3fbeaf
+}
+
+.link__behance{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link__behance:hover{
+    color: #3fbeaf
+}
+  
+.link__youtube{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link__youtube:hover{
+    color: #3fbeaf
+}
+
+.link__Whatsapp{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link__Whatsapp:hover{
+    color: #3fbeaf 
+}
+
+.link__email{
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+.link__email:hover{
+  color: #3fbeaf
+}
+
+.span__analogica{
+    letter-spacing: 1px;
+    padding-right: 10%;
+   
+}
+
+.imagen__mano {
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+.imagen__conexion{
+    position: absolute;
+    top: 180px;
+    left: 10px;   
+}
+.imagen__circulo{
+    position: absolute;
+    top: 170px;
+    left: 550px;
+}
+.imagen__mascara{
+    position: absolute;
+    top: 160px;
+    right: 10px;
+}
+.imagen__pincelada{
+    position: absolute;
+    top: 50px;
+    right: 190px;
+}
+.imagen__asterisco{
+    position: absolute;
+    top: 270px;
+    left: 0px;
+}
+.circulito {
+    position: absolute;
+    font-weight: 8px;
+    letter-spacing: 1px;
+    opacity: 50%;
+    top: 90px;
+    right: -100px;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+@media (max-width:1023px) {
+    .texto_midescripcion {
+        padding-top: 0;
+}
+}
+@media (max-width:768px) {
+
+    .texto_midescripcion {
+        color: #51575B;
+        margin: 40px;
+        letter-spacing: 2px;
+        line-height: 50px;
+        font-style: normal;
+        padding-top: 0;
+    }
+    .imagen__asterisco{
+        right: 0;
+
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .texto_midescripcion{
+        font-size: 26px;
+        line-height: 18px;
+    }
+}
+@media (max-width:600px) {
+    
+    
+    .texto_midescripcion {
+        font-size: 26px;
+        color: #51575B;
+        margin: 20px;
+        letter-spacing: 2px;
+        line-height: 38px;
+        font-style: normal;
+        padding-top: 2rem;
+    }
+}
+@media (max-width:480px) {
+
+    .texto_midescripcion{
+        font-size: 22px;
+        margin: 43px;
+        line-height: 30px;
+        padding-top: 0;
+      }
+      
+    .circulito{
+        display: none;
+    }
+}
+
+@media (max-width:320px) {
+    
+    .hero{
+        height: auto;
+    }
+    .texto_midescripcion{
+        font-size: 16px;
+        margin: 20px;
+        letter-spacing: 2px;
+        line-height: 22px;
+        font-style: normal;
+        padding-top: 2rem;
+        text-align: left;
+        padding-left: 3px;
+      }
+}
+@media screen and (max-width: 992px) {
+
+    .section__cortina {
+        display: none;
+    }
+}
