@@ -10,11 +10,13 @@
     line-height: 38px;
     font-style: normal;
     padding-top: 12rem;
+
+    &__imagen{
+        border-radius: 8px;
+    }
 }
 
-.imagen__yo{
-    border-radius: 8px;
-}
+.texto
 
 .span__cuatro{
     font-weight: bold;
@@ -39,57 +41,61 @@
 .link__instagram{
     font-weight: bold;
     text-decoration: none;
-}
 
-.link__instagram:hover{
-    color: #3fbeaf
+    &:hover{
+        color: #3fbeaf
+    }
 }
 
 .link__analogica{
     font-weight: bold;
     text-decoration-style: dotted;
     color: #4e5052;
+
+    &:hover{
+        color: #3fbeaf
+    }
 }
 
-.link__analogica:hover{
-    color: #3fbeaf
-}
 
 .link__behance{
     font-weight: bold;
     text-decoration: none;
+
+    &:hover{
+        color: #3fbeaf
+    }
 }
 
-.link__behance:hover{
-    color: #3fbeaf
-}
   
 .link__youtube{
     font-weight: bold;
     text-decoration: none;
+
+    &:hover{
+        color: #3fbeaf
+    }
 }
 
-.link__youtube:hover{
-    color: #3fbeaf
-}
 
 .link__Whatsapp{
     font-weight: bold;
     text-decoration: none;
+
+    &:hover{
+        color: #3fbeaf 
+    }
 }
 
-.link__Whatsapp:hover{
-    color: #3fbeaf 
-}
 
 .link__email{
     font-weight: bold;
     text-decoration: none;
-  }
 
-.link__email:hover{
-  color: #3fbeaf
-}
+    &:hover{
+        color: #3fbeaf
+      }
+  }
 
 .span__analogica{
     letter-spacing: 1px;

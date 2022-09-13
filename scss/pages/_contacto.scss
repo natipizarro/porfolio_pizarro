@@ -9,27 +9,30 @@
     border: none;
     border-radius: 0%;
     color: #51575B;
+
+    &:focus{
+        background-color: #51575B;
+        border-color: #51575B;
+        box-shadow: none;
+        color: rgb(255, 255, 255);
+    }
+    ::placeholder{
+        color: #4e5052;
+    }
 }
 
-.form-control:focus {
-    background-color: #51575B;
-    border-color: #51575B;
-    box-shadow: none;
-    color: rgb(255, 255, 255);
-}
-.form-control::placeholder{
-    color: #4e5052;
-}
 .btn-primary{
     border-radius: 1%;
     color: #ffffff;
     background-color: #FF9A5A;
     background-color: #51575B;
     border: none;
+
+    &:hover{
+        background-color: #FF9A5A;
+    }
 }
-.btn-primary:hover{
-    background-color: #FF9A5A;
-}
+
 .especificacion{
     display: flex;
     flex-flow: row wrap;
@@ -73,18 +76,6 @@
 }
 
 @media (max-width:320px) {
-
-    .contactame__email{
-        justify-content: center;
-    }
-    .contactame__name{
-        justify-content: center;
-    }
-
-    .contactame__enviar{
-        justify-content: center;
-
-    }
     .contactame{
         width: 100%;
         height: auto;
