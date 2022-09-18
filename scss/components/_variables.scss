@@ -1,0 +1,51 @@
+$fontLight: #51575B;
+
+$borderRadius: 8px;
+
+$fontBase: 10px;
+ 
+$fontMedium: $fontBase + 6;
+
+$spancolores: (
+    natalia: #5D88B2,
+    cuatro: #FF9A5A
+);
+@each $nombre, $colorcito in $spancolores {
+    .span__#{$nombre} {
+        font-weight: bold;
+        color: $colorcito;
+    }
+}
+
+.link__digital {
+    font-weight: bold;
+    text-decoration: none;
+    color: #51575B;
+    &:hover{
+        color: #3fbeaf;
+    }
+}
+
+.link__analogica {
+    @extend .link__digital;
+}
+
+.link__behance {
+    @extend .link__digital;
+}
+
+.link__instagram {
+    @extend .link__digital;
+}
+
+.link__linkedin {
+    @extend .link__digital;
+}
+
+.link__whatsapp{
+    @extend .link__digital;
+}
+.link__mail{
+    @extend .link__digital;
+}
+

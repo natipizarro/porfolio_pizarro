@@ -841,25 +841,25 @@ a {
 .link__behance:hover {
   color: #3fbeaf; }
 
-.link__youtube {
+.link__linkedin {
   font-weight: bold;
   text-decoration: none; }
 
-.link__youtube:hover {
+.link__linkedin:hover {
   color: #3fbeaf; }
 
-.link__Whatsapp {
+.link__whatsapp {
   font-weight: bold;
   text-decoration: none; }
 
-.link__Whatsapp:hover {
+.link__whatsapp:hover {
   color: #3fbeaf; }
 
-.link__email {
+.link__mail {
   font-weight: bold;
   text-decoration: none; }
 
-.link__email:hover {
+.link__mail:hover {
   color: #3fbeaf; }
 
 .span__analogica {

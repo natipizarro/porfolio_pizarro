@@ -16,86 +16,15 @@
     }
 }
 
-.texto
-
-.span__cuatro{
-    font-weight: bold;
-    color: #FF9A5A;
-} 
-
-.span__natalia{
-    font-weight: bold;
-    color: #5D88B2;
-}
-
-.link__digital{
+.link__redsocial{
     font-weight: bold;
     text-decoration: none;
     color: #51575B;
-}
-
-.link__digital:hover{
-    color: #3fbeaf;
-}
-
-.link__instagram{
-    font-weight: bold;
-    text-decoration: none;
-
     &:hover{
-        color: #3fbeaf
+        color: #3fbeaf;
     }
 }
 
-.link__analogica{
-    font-weight: bold;
-    text-decoration-style: dotted;
-    color: #4e5052;
-
-    &:hover{
-        color: #3fbeaf
-    }
-}
-
-
-.link__behance{
-    font-weight: bold;
-    text-decoration: none;
-
-    &:hover{
-        color: #3fbeaf
-    }
-}
-
-  
-.link__youtube{
-    font-weight: bold;
-    text-decoration: none;
-
-    &:hover{
-        color: #3fbeaf
-    }
-}
-
-
-.link__Whatsapp{
-    font-weight: bold;
-    text-decoration: none;
-
-    &:hover{
-        color: #3fbeaf 
-    }
-}
-
-
-.link__email{
-    font-weight: bold;
-    text-decoration: none;
-
-    &:hover{
-        color: #3fbeaf
-      }
-  }
 
 .span__analogica{
     letter-spacing: 1px;
