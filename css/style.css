@@ -279,16 +279,14 @@ a {
     width: 80%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: repeat(18);
-    margin-left: 20px; } }
+    grid-auto-rows: repeat(18); } }
 
 @media (max-width: 320px) {
   .galeria {
     width: 80%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: repeat(18);
-    margin-left: 20px; } }
+    grid-auto-rows: repeat(18); } }
 
 @media screen and (max-width: 992px) {
   .img__shake {
