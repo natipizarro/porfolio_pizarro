@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitmap: https://natipizarro.github.io/porfolio_pizarro/sitemao.xml

@@ -1,3 +1,11 @@
+.derecha{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2.5fr .5fr;
+    gap: 20px;
+    position: relative;
+}
+
 .galeria__digital--cofre{
     display: flex;
     justify-content: space-around;
@@ -196,6 +204,7 @@
         animation-duration: 10s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
+        z-index: 0;
     
     }
     

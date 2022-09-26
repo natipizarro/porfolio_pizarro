@@ -53,6 +53,9 @@
     animation-timing-function: linear;
 
 }
+.circulito__analogica.circulito__contacto{
+    z-index: -1;
+}
 
 @-webkit-keyframes rotate {
     from { -webkit-transform: rotate(360deg); }

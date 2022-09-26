@@ -25,6 +25,9 @@
     }
 }
 
+.dropdown-toggle::after{
+    display: none;
+}
 
 .span__analogica{
     letter-spacing: 1px;
@@ -49,8 +52,8 @@
 }
 .imagen__mascara{
     position: absolute;
-    top: 160px;
-    right: 10px;
+    top: 220px;
+    right: 320px;
 }
 .imagen__pincelada{
     position: absolute;
@@ -61,6 +64,13 @@
     position: absolute;
     top: 270px;
     left: 0px;
+}
+.imagen__etiqueta {
+    position: absolute;
+    width: 100px;
+    top: 170px;
+    left: 390px;
+    z-index: 1;
 }
 .circulito {
     position: absolute;
