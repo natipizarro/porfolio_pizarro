@@ -14,10 +14,9 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
-    &__index{
-        overflow: hidden;    
-    }
+}
+.body__index{
+    overflow: hidden;    
 }
 
 a{

@@ -1,4 +1,30 @@
-.hero{
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(0,0,0,0.75) 50%); 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    box-shadow: 0 0 0 100vmax rgba(0,0,0,0.6);
+    padding: 32px 48px;
+    z-index: 2;
+    background: white;
+  }
+
+.dropdown-item{
+    text-decoration: none;
+    color: #51575B;
+    font-size: 17px;
+    
+    &:active{
+        background-color: #FF9A5A;
+    }
+    &::after{
+        display: none;
+    }
+  }
+  .hero{
     height: 80vh;
 }
 
@@ -10,10 +36,10 @@
     line-height: 38px;
     font-style: normal;
     padding-top: 12rem;
+}
 
-    &__imagen{
-        border-radius: 8px;
-    }
+.imagen__yo{
+    border-radius: 8px;
 }
 
 .link__redsocial{
