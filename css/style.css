@@ -805,6 +805,14 @@ a {
 .dropdown-toggle::after {
   display: none; }
 
+.span__natalia {
+  font-weight: bold;
+  color: #5D88B2; }
+
+.span__cuatro {
+  font-weight: bold;
+  color: #FF9A5A; }
+
 .span__analogica {
   letter-spacing: 1px;
   padding-right: 10%; }
